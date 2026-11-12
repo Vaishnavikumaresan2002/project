@@ -29,7 +29,7 @@ Clock Source: HSI (High-Speed Internal, 16 MHz) with PLL enabled
 
 System Clock: 180 MHz
 
-Delay: HAL_Delay(1000)
+Delay: HAL_Delay(500)
 
 🧠 How It Works
 
@@ -41,6 +41,6 @@ Inside the main loop, the LED toggles every second using HAL_Delay(1000).
 
 📸 Example Output
 
-LED blinks with a 1-second interval.
+LED blinks with a 2 milli-second interval.
 
 You can verify with an oscilloscope or by observing LED blinking rate.
