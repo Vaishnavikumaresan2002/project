@@ -41,6 +41,6 @@ Inside the main loop, the LED toggles every second using HAL_Delay(1000).
 
 📸 Example Output
 
-LED blinks with a 2 milli-second interval.
+LED blinks with a 2 -second interval.
 
 You can verify with an oscilloscope or by observing LED blinking rate.
